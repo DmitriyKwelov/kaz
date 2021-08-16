@@ -1,0 +1,531 @@
+body{
+    background: #F4F4F8;
+}
+h2{
+    font-weight: bold;
+}
+.container{
+    max-width: 1100px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav-link{
+    padding: 8px;
+}
+.country-icon{
+    margin: 0 0 0 10px;
+}
+.country-icon img{
+    width: 20px;
+}
+.nav-menu{
+    justify-content: flex-end;
+}
+.banner{
+    margin: 50px 0;
+    min-height: 300px;
+    background: url(img/ghsertdhsrtdhsedrtxf33.jpg) 50%/cover no-repeat ;;
+    /* background: linear-gradient(to right, rgb(43, 43, 43), rgb(211, 211, 211)); */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background: rgb(39, 54, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px;
+}
+.text-in-square{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text-banner p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.text-banner h2{
+    color: #fff;    
+}
+.text-banner button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating img{
+    width: 20px;
+    margin-right: 5px;
+}
+.rating span {
+    color: #fff;
+}
+.my-btn{
+    background-color: #F8784D;
+    border-color: #F8784D;  
+    color: white;
+    border-radius: 5px;
+    height: 55px;
+    width: 215px;  
+    font-weight: bold;  
+} 
+.my-btn:hover, 
+.my-btn:focus,   
+.my-btn:visited{  
+    background-color: #F8784D;
+    border-color: #F8784D;   
+    color: white;  
+}
+.my-btn:hover{
+    background-color: #F8784D;
+    border-color: #F8784D;   
+}
+.germany-icons{
+    width: 30px;
+    margin-right: 20px;
+}
+.group-games-title{
+    display: flex;
+}
+.info-text{
+    padding: 25px 0;
+}
+.game{
+    min-height: 150px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+.square-game{
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.vegas-logo{
+    background: url(img/fb_open_graph.jpg) 50%/cover no-repeat ;
+}
+.netbet-logo{
+    background: url(img/Net-Bet-2.png) 50%/cover no-repeat ;
+}
+.logo-g-slot{
+    background: url(img/g-slot.jpg) 50%/cover no-repeat ;
+}
+.title-game{
+    display: flex;
+}
+.title-game img{
+    margin: 0 0 0 5px;
+    width: 20px;
+}
+.rating-game {
+    display: flex;
+    align-items: center;
+}
+.rating-game img{
+    width: 14px;
+    margin-right: 4px;
+}
+.rating-game span{
+    font-size: 14px;
+    margin-left: 6px;
+}
+.pay-icon{
+    width: 40px;
+    height: 20px;
+    background: #E9ECF1;
+    border-radius: 2px;
+    margin-right: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-icon img{
+    position: absolute;
+    width: 70%;
+}
+.pay-icons{
+    position: relative;
+    display: flex;
+}
+.skrill-pay{
+    background: #5c1f5d;
+}
+.visa-pay{
+    background: #00579F;
+    padding-right: 2px;
+}
+.mastercard-pay{
+    background: #282827;
+}
+.mastercard-pay img{
+    width: 60%;
+}
+.pay-icon span{
+    font-weight: bold;
+    color: #282838;
+    font-size: 12px;
+}
+.left-game-card{
+    display: flex;
+}
+.cashback-bonus{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px #E8E8F8 solid;
+    border-right: 1px #E8E8F8 solid;
+}
+.play-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cashback-bonus span{
+    color: #F8784D;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cashback-bonus p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #181818;
+}
+.last-game{
+    margin-bottom: 50px;
+}
+.top-slot{
+    background: #181828;
+    padding-bottom: 50px;
+}
+.title-group2 h2{
+    padding: 70px 0 50px 0;
+    color: #fff;
+}
+.title-group3 h2{
+    padding: 70px 0 50px 0;
+    color: #000;
+}
+.green-square{
+    background: #81C53A;
+}
+.benefits-section{
+    background: #fff;
+    padding-bottom: 70px;
+}
+.benefits-section h2{
+    padding: 70px 0 50px 0;
+}
+.benefits-section h5{
+    padding: 25px 0 15px 0;
+    margin: 0;
+}
+.icon-box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8E8E8;
+}
+.icon-box img{
+    width: 50%;
+}
+.shield{
+    background: #D4F0F2;
+}
+.hand-money{
+    background: #F5EAD5;
+}
+.bonus-section{
+    background: #fff;
+    padding-bottom: 70px;
+}
+.bonus-item{
+    padding: 0;
+    margin: 30px 0 0 0;
+    position: relative;
+    background: #F8F8F8;
+    border-radius: 20px;
+    width: 350px;
+}
+.bonus-item-header{
+    height: 50px;
+    width: 100%;
+    background: #F8784D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+.bonus-item-header p{
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+.content-bonus-item{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 20px;
+}
+.content-bonus-item p{
+    margin: 0 0 0 10px;
+}
+.checkbox-icon{
+    width: 28px;
+}
+.box-bonus{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    padding-top: 70px;
+    background: #181828;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+}
+.offer-bonus-footer{
+    padding-bottom: 70px;
+}
+.picture-bonus{
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: url(img/vzsdgvzsdrg.jpg) 50%/cover no-repeat ;;
+}
+.picture-bonus p{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 300px;
+}
+.input-div {
+    display: flex;
+    justify-content: space-between;
+}
+.input-div button, input{
+    height: 40px;
+}
+.input-div input{
+    min-width: 270px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.checkbox-footer{
+    display: flex;
+    align-items: center;
+}
+.checkbox-footer input{
+    margin-right: 10px;
+}
+.checkbox-footer label{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.form p{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.list-footer{
+    border-top: 1px solid #343D48;
+    border-bottom: 1px solid #343D48;
+    padding: 60px 0;
+}
+.list-footer{
+    color: #fff;
+}
+.list-footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.list-footer-content li{
+    color: #fff;
+}
+.footer-description{
+    padding: 50px 0 5px 0;
+}
+.footer-description p{
+    font-size: 0.6rem;
+    color: #888888;
+}
+.right-logos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.right-logos p{
+    margin-top: 15px;
+    font-size: 0.7rem;
+}
+.mc-afee{
+    width: 50px;
+}
+.bzga{
+    width: 30px;
+}
+@media(max-width: 992px){
+    .bonus-section h2{
+        text-align: center!important;
+    }
+    .benefits-section h2{
+        text-align: center!important;
+    }
+    .country-icon{
+        margin-left: 20px; 
+    }
+    .games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .game{
+        width: 500px;
+        padding: 20px 0;
+    }
+    .cashback-bonus{
+        border: 0px;
+    }
+    .benefits-item p{
+        text-align: center!important;
+    }
+    .benefits-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits{
+        justify-content: center;
+    }
+    .offer-bonus-footer{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .form{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 767px){
+    .benefits-item{
+        padding-top: 40px;
+        max-width: 400px;
+    }
+    .list-footer h2{
+        text-align: center!important;;
+    }
+}
+@media(max-width: 576px){
+    .banner{
+        justify-content: center;
+        padding: 30px 0;
+    }
+    .text-banner {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .square{
+        margin: 0;
+    }
+    .game{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .text-bonus {
+        text-align: center;
+    }
+    .game{
+        width: 400px;
+        padding: 20px 0;
+    }
+    .play-game{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cashback-bonus p{
+        margin: 0;
+    }
+    .offer-bonus-footer{
+        max-width: 100%;
+    }
+    .list-footer h2{
+        margin-bottom: 20px;
+    }
+    .input-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input-div input{
+        min-width: 300px;
+        margin: 0 0 20px 0;
+    }
+    .checkbox-footer{
+        display: flex;
+        align-items: center;
+    }
+    .checkbox-footer input{
+        margin-right: 10px;
+    }
+    .checkbox-footer{
+        display: flex;
+        justify-content: center;
+    }
+    .form p{
+        text-align: center!important;
+    }
+    .right-logos{
+        align-items: center;
+    }
+    .footer-description p{
+        text-align: center!important;;
+    }
+}
+@media(max-width: 420px){
+    .game{
+        width: 100%;
+    }
+    .visa-pay{
+        display: none;
+    }
+    .left-game-card{
+        justify-content: center;
+    }
+    .bonus-item{
+        max-width: 300px;
+    }
+}
+@media(max-width: 340px){
+    .title-game img{
+        display: none;
+    }
+}
